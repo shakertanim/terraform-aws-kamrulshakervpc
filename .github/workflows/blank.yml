@@ -17,7 +17,7 @@ jobs:
       - name: Set up Git
         run: |
           git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.email "tanimshaker@gmail.com"
 
       - name: Bump version and push tag
         id: tag_version
