@@ -2,7 +2,7 @@ name: My First Github Action
 on: workflow_dispatch
 jobs:
   my_first_job:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-22.04
     steps:
       - name: step1 
         run: echo "This is the first job"
