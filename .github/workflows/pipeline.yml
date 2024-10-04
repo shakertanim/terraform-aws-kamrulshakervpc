@@ -1,0 +1,12 @@
+name: My First Github Action
+on: workflow_dispatch
+jobs:
+  my_first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - name: step1 
+        run: echo "This is the first job"
+      - name: step2
+        run: |
+          apt-get update -y
+          apt-get install terraform -y
